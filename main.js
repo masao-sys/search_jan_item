@@ -113,6 +113,7 @@ else if (h.match(/biccamera.com/)) {
 if (s) {
   s = s.trim();
   window.open('http://www.amazon.co.jp/s/ref=nb_sb_noss?url=search-alias=aps&field-keywords=' + s, '_blank');
+  window.alert('aaa');
   window.onload = function() {
     const item_href = document.getElementsByClassName('a-link-normal s-underline-text s-underline-link-text s-link-style a-text-normal').href;
     window.open(item_href);
