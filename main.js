@@ -115,6 +115,6 @@ if (s) {
   window.open('http://www.amazon.co.jp/s/ref=nb_sb_noss?url=search-alias=aps&field-keywords=' + s, '_blank');
   window.onload = function() {
     const item_href = document.getElementById('a-link-normal s-underline-text s-underline-link-text s-link-style a-text-normal').href;
-    console.log(item_href);
+    window.open(item_href);
   }
 }
